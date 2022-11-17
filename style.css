@@ -1,0 +1,76 @@
+       /* Seletores
+        Tag HTML
+        * - TUDO
+        #id - Id de uma tag HTML
+        .classe
+       */
+       * {
+        margin: 0px;
+        padding: 0px;
+       }
+
+       #titulo {
+        background-color:thistle;
+        color: black;
+        border: 1px solid thistle;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+       }
+
+       .texto {
+        font-size: large;
+       }
+
+       .mt-20 {
+        margin-top: 20px;
+       }
+
+       .social {
+        width: 50px;
+       }
+
+       .photo {
+        width: 300px;
+       }
+
+       .container {
+        display:flex;
+       }
+
+       .container > div {
+        width: 300px;
+       }
+
+       @media (max-width: 500px) {
+        .container {
+            flex-direction: column;
+        }
+       }
+
+       .texto:hover {
+        background-color:rgb(244, 238, 238);
+       }
+
+       .nav-button {
+        margin: 10px;
+        border: 1px none red;
+        padding: 5px;
+       }
+
+       .nav-button:hover {
+        background-color:darkgray;
+        color: white;
+        }
+
+        hr {
+            display: none;
+        }
+
+        li {
+         display: inline;
+        }
+ 
+        a {
+         text-decoration: none;
+        }

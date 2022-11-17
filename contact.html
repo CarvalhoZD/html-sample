@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,22 +31,44 @@
         </nav>
         <hr class="hr">
     </header>
-
+    
     <main>
-        <section class="container">
+        <section>
+            <h1>Entre em contato por</h1>
             <div>
-                <h1>O que me anima no momento?</h1>
-                <p>Bleach voltou, depois de muita espera da minha parte!!</p>
-            </div>
-            <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mjeR7vUrDvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <form>
+                    <p>
+                       <label for="name">Nome</label>
+                       <input name="name" type="text" id="name">
+                    </p>
+                   </form>
+                   <form>
+                       <p>
+                          <label for="email">E-mail</label>
+                          <input name="email" type="email" id="email">
+                       </p>
+                       <p>
+                           <label for="message">Mensagem</label>
+                           <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                       </p>
+                       <p>
+                           <button id="send">Enviar</button>
+                       </p>
+                    </form>
             </div>
         </section>
     </main>
-
     <hr>
+
     <footer>
-        <p>Direitos da Disney e Viz</p>
+        <div>
+            contato
+            <br>
+            <br>
+            <img width="50" src="assets/images/gmail..png">
+            <img width="25" src="assets/images/telef..png">
+        </div>
     </footer>
+
 </body>
 </html>

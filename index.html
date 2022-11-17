@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <table align="center" width="65%">
-                <tr>
-                    <td align="left"><a href="index.html">Home</a></td>
-                    <td align="right" width="70"><a href="video.html">Video</a></td>
-                    <td align="right" width="270"><a href="photo.html">Photo</a></td>
-                    <td align="right"><a href="about.html">About Me</a></td>
-                </tr>
-            </table>
+            <ul>
+                <li class="nav-button">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-button">
+                    <a href="video.html">Video</a>
+                </li>
+                <li class="nav-button">
+                    <a href="photo.html">Photo</a>
+                </li>
+                <li class="nav-button">
+                    <a href="about.html">About me</a>
+                </li>
+                <li class="nav-button">
+                    <a href="contact.html">Contact me</a>
+                </li>
+            </ul>
         </nav>
-        <hr>
+        <hr class="hr">
     </header>
 
     <main>
         <section>
             <div>
-                <h1>Olá!</h1>
-                <p>
+                <h1 id="titulo">Olá!</h1>
+                <p class="texto mt-20" >
                     Me chamo Mauricio Carvalho e nesse sample para praticar 
                     irei mostrar um pouco de quem sou eu.
                 </p>
