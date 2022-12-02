@@ -90,5 +90,10 @@ a {
 }
 
 .center {
-    text-align: center;
+  text-align: center;
+}
+
+.social {
+  height: 25px;
+  width: 25px;
 }
