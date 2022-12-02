@@ -33,19 +33,25 @@
     </header>
 
     <main>
-      <div>
-        <h1 class="titulo">Entre em contato</h1>
+      <h1 class="titulo">Entre em contato</h1>
+      <div class="container">
         <div>
           <form>
             <p>
               <label for="name">Nome</label>
-              <input name="name" type="text" id="name" />
+              <input name="name" type="text" id="name" onkeyup="validaNome()">
+              <div id="txtNome">
+
+              </div>
             </p>
           </form>
           <form>
             <p>
               <label for="email">E-mail</label>
-              <input name="email" type="email" id="email" />
+              <input name="email" type="email" id="email" onkeyup="validaEmail()">
+              <div id="txtEmail">
+              
+              </div>
             </p>
             <p>
               <label for="assunto">Assunto</label>
@@ -54,7 +60,9 @@
                 id="assunto"
                 cols="30"
                 rows="3"
+                onkeyup="validaAssunto()"
               ></textarea>
+              <div id="txtAssunto"></div>
             </p>
             <p>
               <button id="send">Enviar</button>
@@ -70,5 +78,8 @@
         Todos os direitos reservados: Mauricio Carvalho &copy;
       </p>
     </footer>
+
+    <script src="assets/js/script.js"></script>
+
   </body>
 </html>
